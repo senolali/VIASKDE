@@ -1,7 +1,7 @@
 # VIASCKDE Index
 Python Implementation of VIASKDE Index
 
-This is the python implementation of VIASCKDE Index which is a noval internal clustering validation index and proposed in "The VIASCKDE Index: A Novel Internal Cluster Validity Index for Arbitrary Shaped Clusters Based on the Kernel Density Estimation" by Ali Şenol. 
+This is the python implementation of VIASCKDE Index which is a noval internal clustering validation index and proposed in "The VIASCKDE Index: A Novel Internal Cluster Validity Index for Arbitrary Shaped Clusters Based on the Kernel Density Estimation" by Ali Şenol. The VIASCKDE index aims to evaluate clusters quality of any clustering algorithm whatever the shape of the clusters are.
 
 For using the code you should install KernelDensity. To install it, run "pip install KernelDensity"
 
@@ -15,8 +15,9 @@ kernel: selected kernel method, krnl='gaussian' is te default kernel. But it cou
 
 bandwidth: the bandwidth value of kernel density estimation. b_width=0.05 is the default value. But it could be changed.
 
-
 According to the experimental studies, the Gaussian was the best kernel method and the b_width=0.05 was the best bandwidth. 
+
+The VIASCKDE value is expected to be in between [-1, +1], where +1 refers to the best possible value, and -1 refers to the worst possible value.
 
 If you use the code please refer to the citation given below:
 

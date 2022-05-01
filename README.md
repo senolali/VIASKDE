@@ -7,15 +7,20 @@ This is the python implementation of VIASCKDE Index which is a noval internal cl
 
 For using the code, you should install KernelDensity. To install it, run "pip install KernelDensity"
 
-VIASCKDE index needs four parameters which are:
+<i>VIASCKDE index needs four parameters which are:</i>
+<ul>
+   <li><b>X</b>: X={x1, x2,…,xn} ∈ Rd be a dataset containing n points in a d-dimensional space, and xi ∈ Rd.</li>
+   <li><b>labels</b>: the predicted labels by the algorithm</li>
+   <li><b>kernel</b>: selected kernel method, krnl='gaussian' is te default kernel. But it could be 'tophat', 'epanechnikov', 'exponential', 'linear', or 'cosine'.</li>
+  <li><b>bandwidth</b>: the bandwidth value of kernel density estimation. b_width=0.05 is the default value. But it could be changed.</li>
+ </ul>
 
-<b>X</b>: X={x1, x2,…,xn} ∈ Rd be a dataset containing n points in a d-dimensional space, and xi ∈ Rd.
 
-<b>labels</b>: the predicted labels by the algorithm
 
-<b>kernel</b>: selected kernel method, krnl='gaussian' is te default kernel. But it could be 'tophat', 'epanechnikov', 'exponential', 'linear', or 'cosine'.
+<br>
 
-<b>bandwidth</b>: the bandwidth value of kernel density estimation. b_width=0.05 is the default value. But it could be changed.
+
+
 
 According to the experimental studies, the Gaussian was the best kernel method and the b_width=0.05 was the best bandwidth. 
 

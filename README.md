@@ -16,7 +16,7 @@ kernel: selected kernel method, krnl='gaussian' is te default kernel. But it cou
 bandwidth: the bandwidth value of kernel density estimation. b_width=0.05 is the default value. But it could be changed.
 
 
-According to experimental study, the Gaussian was the best kernel method and the b_width=0.05 was the best bandwidth. 
+According to the experimental studies, the Gaussian was the best kernel method and the b_width=0.05 was the best bandwidth. 
 
 If you use the code please refer to the citation given below:
 

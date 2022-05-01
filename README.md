@@ -34,7 +34,7 @@ According to the experimental studies, the Gaussian was the best kernel method a
 <br><br>
 The VIASCKDE value is expected to be in between [-1, +1], where +1 refers to the best possible value, and -1 refers to the worst possible value.
 <br><br>
-If you use the code please refer to the citation given below:
+For more information read the article and if you use the code please cite to the article given below:
 <br><br>
 "Şenol,A., 2022. "The VIASCKDE Index: A Novel Internal Cluster Validity Index for Arbitrary Shaped Clusters Based on the Kernel Density Estimation", Computational Intelligance and Neurocomputing."
 

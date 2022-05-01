@@ -5,7 +5,7 @@ This is the python implementation of VIASCKDE Index which is a noval internal cl
 
 <img src="results/1_HalfKernel_VIASCKDE.png" width="400"/><img src="results/2_TwoSpirals_VIASCKDE.png" width="400"/><br><img src="results/3_outliers_VIASCKDE.png" width="400"/><img src="results/6_crescentfullmoon_VIASCKDE.png" width="400"/>
 
-For using the code, you should install KernelDensity. To install it, run "pip install KernelDensity"
+
 
 <i>VIASCKDE index needs four parameters which are:</i>
 <ul>
@@ -18,18 +18,19 @@ For using the code, you should install KernelDensity. To install it, run "pip in
 
 
 <br>
-
+For using the code, you should install KernelDensity. To install it, run "pip install KernelDensity"
+<br>
 
 
 
 According to the experimental studies, the Gaussian was the best kernel method and the b_width=0.05 was the best bandwidth. 
-
+<br>
 The VIASCKDE value is expected to be in between [-1, +1], where +1 refers to the best possible value, and -1 refers to the worst possible value.
-
+<br>
 The code given above tries to find the best values of MinPts and epsilon which are the parameters of DBSCAN by the help of VIASCKDE Index in a random search method.
-
+<br>
 If you use the code please refer to the citation given below:
-
+<br>
 "Şenol,A., 2022. "The VIASCKDE Index: A Novel Internal Cluster Validity Index for Arbitrary Shaped Clusters Based on the Kernel Density Estimation", Computational Intelligance and Neurocomputing."
 
 

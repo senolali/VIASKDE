@@ -11,7 +11,7 @@ The figures given below are the best results that were selected by VIASCKDE inde
 
 <img src="results/1_HalfKernel_VIASCKDE.png" width="400"/><img src="results/2_TwoSpirals_VIASCKDE.png" width="400"/><br><img src="results/3_outliers_VIASCKDE.png" width="400"/><img src="results/6_crescentfullmoon_VIASCKDE.png" width="400"/>
 
-<br><br>
+<br>
 
 
 <i>VIASCKDE index needs four parameters which are:</i>

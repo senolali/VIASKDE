@@ -36,6 +36,6 @@ The VIASCKDE value is expected to be in between [-1, +1], where +1 refers to the
 <br><br>
 For more information read the article and if you use the code please cite to the article given below:
 <br><br>
-"Şenol,A., 2022. "The VIASCKDE Index: A Novel Internal Cluster Validity Index for Arbitrary Shaped Clusters Based on the Kernel Density Estimation", Computational Intelligance and Neurocomputing."
+"Şenol, A., 2022. "The VIASCKDE Index: A Novel Internal Cluster Validity Index for Arbitrary Shaped Clusters Based on the Kernel Density Estimation", Computational Intelligance and Neurocomputing."
 
 

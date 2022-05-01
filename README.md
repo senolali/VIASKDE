@@ -1,5 +1,5 @@
 # VIASCKDE Index
-Python Implementation of VIASKDE Index
+<h2>Python Implementation of VIASKDE Index</h2>
 
 This is the python implementation of VIASCKDE Index which is a noval internal clustering validation index and proposed in "The VIASCKDE Index: A Novel Internal Cluster Validity Index for Arbitrary Shaped Clusters Based on the Kernel Density Estimation" by Ali Şenol. The VIASCKDE index aims to evaluate clusters quality of any clustering algorithm whatever the shape of the clusters are.
 

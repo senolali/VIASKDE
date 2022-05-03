@@ -1,5 +1,5 @@
 # VIASCKDE Index
-<h2>Python Implementation of VIASKDE Index</h2>
+<h2>Python Implementation of VIASCKDE Index</h2>
 
 This is the python implementation of VIASCKDE Index which is a noval internal clustering validation index and proposed in "The VIASCKDE Index: A Novel Internal Cluster Validity Index for Arbitrary Shaped Clusters Based on the Kernel Density Estimation" by Ali Şenol. The VIASCKDE index aims to evaluate clusters quality of any clustering algorithm whatever the shape of the clusters are. 
 <br><br>
@@ -18,8 +18,8 @@ The code given above tries to find the best values of MinPts and &epsilon; which
 <ul>
    <li><b>X</b>: X={x1, x2,…,xn} ∈ Rd be a dataset containing n points in a d-dimensional space, and xi ∈ Rd.</li>
    <li><b>labels</b>: the predicted labels by the algorithm</li>
-   <li><b>kernel</b>: selected kernel method, krnl='gaussian' is te default kernel. But it could be 'tophat', 'epanechnikov', 'exponential', 'linear', or 'cosine'.</li>
-  <li><b>bandwidth</b>: the bandwidth value of kernel density estimation. b_width=0.05 is the default value. But it could be changed.</li>
+   <li><b>kernel (optional)</b>: selected kernel method, krnl='gaussian' is te default kernel. But it could be 'tophat', 'epanechnikov', 'exponential', 'linear', or 'cosine'.</li>
+  <li><b>bandwidth(optional)</b>: the bandwidth value of kernel density estimation. b_width=0.05 is the default value. But it could be changed.</li>
  </ul>
 
 

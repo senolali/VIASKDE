@@ -7,7 +7,7 @@ The VIASCKDE index is a kind of index that is not affected by cluster shape, and
 <br><br>
 <img src="results/fig_5.jpg" width="500"/>
 <br><br>
-The code given above tries to find the best values of MinPts and &epsilon; which are the parameters of DBSCAN by the help of VIASCKDE Index in a random search method. The figures given below are the best results that were selected by VIASCKDE index as the best ones for each dataset.
+The code given above tries to find the best values of MinPts and &epsilon; which are the parameters of DBSCAN by the help of the VIASCKDE Index in a random search method. The figures given below are the best results that were selected by the VIASCKDE index as the best ones for each dataset.
 
 <img src="results/1_HalfKernel_VIASCKDE.png" width="400"/><img src="results/2_TwoSpirals_VIASCKDE.png" width="400"/><br><img src="results/3_outliers_VIASCKDE.png" width="400"/><img src="results/6_crescentfullmoon_VIASCKDE.png" width="400"/>
 

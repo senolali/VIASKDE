@@ -25,7 +25,6 @@ The code given above tries to find the best values of MinPts and &epsilon; which
 
 According to the experimental studies, the Gaussian was the best kernel method and the b_width=0.05 was the best bandwidth. 
 <br><br>
-<br>
 For using the code, you should install KernelDensity. To install it, run "pip install KernelDensity"
 <br>
 <br>

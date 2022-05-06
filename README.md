@@ -23,15 +23,12 @@ The code given above tries to find the best values of MinPts and &epsilon; which
  </ul>
 
 
-
+According to the experimental studies, the Gaussian was the best kernel method and the b_width=0.05 was the best bandwidth. 
+<br><br>
 <br>
 For using the code, you should install KernelDensity. To install it, run "pip install KernelDensity"
 <br>
 <br>
-
-
-According to the experimental studies, the Gaussian was the best kernel method and the b_width=0.05 was the best bandwidth. 
-<br><br>
 The VIASCKDE value is expected to be in between [-1, +1], where +1 refers to the best possible value, and -1 refers to the worst possible value.
 <br><br>
 For more information read the article and if you use the code please cite to the article given below:

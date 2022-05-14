@@ -16,7 +16,7 @@ The code given above tries to find the best values of MinPts and &epsilon; which
 
 <i>VIASCKDE index needs four parameters which are:</i>
 <ul>
-   <li><b>X</b>: X={x1, x2,…,xn} ∈ Rd be a dataset containing n points in a d-dimensional space, and xi ∈ Rd.</li>
+   <li><b>X</b>: X={x<sub>1</sub>, x2,…,xn} ∈ Rd be a dataset containing n points in a d-dimensional space, and xi ∈ Rd.</li>
    <li><b>labels</b>: the predicted labels by the algorithm</li>
    <li><b>kernel (optional)</b>: selected kernel method, krnl='gaussian' is default kernel. But it could be 'tophat', 'epanechnikov', 'exponential', 'linear', or 'cosine'.</li>
   <li><b>bandwidth(optional)</b>: the bandwidth value of kernel density estimation. b_width=0.05 is the default value. But it could be changed.</li>
